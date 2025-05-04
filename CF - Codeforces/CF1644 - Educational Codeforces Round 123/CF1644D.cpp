@@ -1,3 +1,7 @@
+/*
+Hay dos tipos de operaciones: las que afectan a la respuesta (multiplican por k) y las que no.
+Una operación es importante sii es la última en afectar alguna celda, guardo última operación de cada fila/columna y me fijo si afecta a alguien.
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,7 @@
+/*
+Pensarlo como grafo planar, hago 2-SAT para elegir quien va adentro/afuera.
+Puedo zafar de codear 2-SAT porque cada componente es fuertemente conexa, solo hace falta un DSU, añado una arista cuando dos cuerdas se intersecan.
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

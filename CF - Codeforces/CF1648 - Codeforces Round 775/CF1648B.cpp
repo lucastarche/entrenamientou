@@ -1,3 +1,7 @@
+/*
+Fijo el valor de $y$ y $k$ de manera que $\lfloor \frac{x}{y} \rfloor = k$, $x$ tiene que estar en el intervalo $[ky, (k+1)y)$ para poder formar este valor de $k$.
+Si $k$ no está en $a$, hago binaria para fijarme, corre rápido porque si todos los y's son distintos, está acotado por harmónica
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

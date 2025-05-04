@@ -1,3 +1,7 @@
+/*
+Es parecido a otros problemas de strings, donde buscamos un camino hamiltoniano que tenga todos los strings.
+Era cómodo pensarlo con Prefix Automaton, pero también se puede computar "cantidad de caracteres para poner $s_j$ después de $s_i$" y buscar el camino, ahí hay que tener cuidado que ningún string esté contenido adentro de otro
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,7 @@
+/*
+Similar al anterior, pero me puedo ahorrar la binaria si precomputo mínimo elemento más grande que $x$ para todo $x$, me fijo a la derecha de $ky$.
+Raro que resulta ser casi tan rápido como el código anterior, difieren en $\approx 100\text{ms}$, cuando el código tarda $\approx 1200\text{ms}$. 
+*/
 #include <bits/stdc++.h>
 
 using namespace std;

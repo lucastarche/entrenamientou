@@ -1,3 +1,6 @@
+/*
+Busco "probabilidad de que la cola más larga mida a lo sumo $x$" $\forall x$, esto queda una DP, donde la "capacidad" de cada cuarto es $a_i \cdot x$, uso esto para recuperar el valor esperado.
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
